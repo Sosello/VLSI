@@ -1,0 +1,73 @@
+$date
+  Wed Oct 19 12:45:12 2022
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$var reg 1 ! shift_lsl $end
+$var reg 1 " shift_lsr $end
+$var reg 1 # shift_asr $end
+$var reg 1 $ shift_ror $end
+$var reg 1 % shift_rrx $end
+$var reg 5 & shift_val[4:0] $end
+$var reg 32 ' din[31:0] $end
+$var reg 1 ( cin $end
+$var reg 32 ) dout[31:0] $end
+$var reg 1 * cout $end
+$var reg 1 + vdd $end
+$var reg 1 , vss $end
+$scope module my_shifter $end
+$var reg 1 - shift_lsl $end
+$var reg 1 . shift_lsr $end
+$var reg 1 / shift_asr $end
+$var reg 1 0 shift_ror $end
+$var reg 1 1 shift_rrx $end
+$var reg 5 2 shift_val[4:0] $end
+$var reg 32 3 din[31:0] $end
+$var reg 1 4 cin $end
+$var reg 32 5 dout[31:0] $end
+$var reg 1 6 cout $end
+$var reg 1 7 vdd $end
+$var reg 1 8 vss $end
+$var reg 32 9 intermediaire[31:0] $end
+$upscope $end
+$enddefinitions $end
+#0
+0!
+U"
+U#
+U$
+U%
+bUUUUU &
+b00000001001010100011101101001101 '
+U(
+bUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU )
+U*
+0+
+0,
+0-
+U.
+U/
+U0
+U1
+bUUUUU 2
+b00000001001010100011101101001101 3
+U4
+bUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU 5
+U6
+07
+08
+bUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU 9
+#10000000
+X!
+X-
+#20000000
+#30000000
+#40000000
+#50000000
+#60000000
+0!
+0-

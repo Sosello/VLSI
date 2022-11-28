@@ -1,0 +1,407 @@
+$date
+  Wed Oct 19 09:30:33 2022
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$var reg 32 ! i0[31:0] $end
+$var reg 32 " i1[31:0] $end
+$var reg 1 # cin $end
+$var reg 1 $ cout $end
+$var reg 32 % q[31:0] $end
+$var reg 31 & c[30:0] $end
+$scope module bit0 $end
+$var reg 1 ' a $end
+$var reg 1 ( b $end
+$var reg 1 ) cin $end
+$var reg 1 * cout $end
+$var reg 1 + s $end
+$upscope $end
+$scope module bit1 $end
+$var reg 1 , a $end
+$var reg 1 - b $end
+$var reg 1 . cin $end
+$var reg 1 / cout $end
+$var reg 1 0 s $end
+$upscope $end
+$scope module bit2 $end
+$var reg 1 1 a $end
+$var reg 1 2 b $end
+$var reg 1 3 cin $end
+$var reg 1 4 cout $end
+$var reg 1 5 s $end
+$upscope $end
+$scope module bit3 $end
+$var reg 1 6 a $end
+$var reg 1 7 b $end
+$var reg 1 8 cin $end
+$var reg 1 9 cout $end
+$var reg 1 : s $end
+$upscope $end
+$scope module bit4 $end
+$var reg 1 ; a $end
+$var reg 1 < b $end
+$var reg 1 = cin $end
+$var reg 1 > cout $end
+$var reg 1 ? s $end
+$upscope $end
+$scope module bit5 $end
+$var reg 1 @ a $end
+$var reg 1 A b $end
+$var reg 1 B cin $end
+$var reg 1 C cout $end
+$var reg 1 D s $end
+$upscope $end
+$scope module bit6 $end
+$var reg 1 E a $end
+$var reg 1 F b $end
+$var reg 1 G cin $end
+$var reg 1 H cout $end
+$var reg 1 I s $end
+$upscope $end
+$scope module bit7 $end
+$var reg 1 J a $end
+$var reg 1 K b $end
+$var reg 1 L cin $end
+$var reg 1 M cout $end
+$var reg 1 N s $end
+$upscope $end
+$scope module bit8 $end
+$var reg 1 O a $end
+$var reg 1 P b $end
+$var reg 1 Q cin $end
+$var reg 1 R cout $end
+$var reg 1 S s $end
+$upscope $end
+$scope module bit9 $end
+$var reg 1 T a $end
+$var reg 1 U b $end
+$var reg 1 V cin $end
+$var reg 1 W cout $end
+$var reg 1 X s $end
+$upscope $end
+$scope module bit10 $end
+$var reg 1 Y a $end
+$var reg 1 Z b $end
+$var reg 1 [ cin $end
+$var reg 1 \ cout $end
+$var reg 1 ] s $end
+$upscope $end
+$scope module bit11 $end
+$var reg 1 ^ a $end
+$var reg 1 _ b $end
+$var reg 1 ` cin $end
+$var reg 1 a cout $end
+$var reg 1 b s $end
+$upscope $end
+$scope module bit12 $end
+$var reg 1 c a $end
+$var reg 1 d b $end
+$var reg 1 e cin $end
+$var reg 1 f cout $end
+$var reg 1 g s $end
+$upscope $end
+$scope module bit13 $end
+$var reg 1 h a $end
+$var reg 1 i b $end
+$var reg 1 j cin $end
+$var reg 1 k cout $end
+$var reg 1 l s $end
+$upscope $end
+$scope module bit14 $end
+$var reg 1 m a $end
+$var reg 1 n b $end
+$var reg 1 o cin $end
+$var reg 1 p cout $end
+$var reg 1 q s $end
+$upscope $end
+$scope module bit15 $end
+$var reg 1 r a $end
+$var reg 1 s b $end
+$var reg 1 t cin $end
+$var reg 1 u cout $end
+$var reg 1 v s $end
+$upscope $end
+$scope module bit16 $end
+$var reg 1 w a $end
+$var reg 1 x b $end
+$var reg 1 y cin $end
+$var reg 1 z cout $end
+$var reg 1 { s $end
+$upscope $end
+$scope module bit17 $end
+$var reg 1 | a $end
+$var reg 1 } b $end
+$var reg 1 !" cin $end
+$var reg 1 "" cout $end
+$var reg 1 #" s $end
+$upscope $end
+$scope module bit18 $end
+$var reg 1 $" a $end
+$var reg 1 %" b $end
+$var reg 1 &" cin $end
+$var reg 1 '" cout $end
+$var reg 1 (" s $end
+$upscope $end
+$scope module bit19 $end
+$var reg 1 )" a $end
+$var reg 1 *" b $end
+$var reg 1 +" cin $end
+$var reg 1 ," cout $end
+$var reg 1 -" s $end
+$upscope $end
+$scope module bit20 $end
+$var reg 1 ." a $end
+$var reg 1 /" b $end
+$var reg 1 0" cin $end
+$var reg 1 1" cout $end
+$var reg 1 2" s $end
+$upscope $end
+$scope module bit21 $end
+$var reg 1 3" a $end
+$var reg 1 4" b $end
+$var reg 1 5" cin $end
+$var reg 1 6" cout $end
+$var reg 1 7" s $end
+$upscope $end
+$scope module bit22 $end
+$var reg 1 8" a $end
+$var reg 1 9" b $end
+$var reg 1 :" cin $end
+$var reg 1 ;" cout $end
+$var reg 1 <" s $end
+$upscope $end
+$scope module bit23 $end
+$var reg 1 =" a $end
+$var reg 1 >" b $end
+$var reg 1 ?" cin $end
+$var reg 1 @" cout $end
+$var reg 1 A" s $end
+$upscope $end
+$scope module bit24 $end
+$var reg 1 B" a $end
+$var reg 1 C" b $end
+$var reg 1 D" cin $end
+$var reg 1 E" cout $end
+$var reg 1 F" s $end
+$upscope $end
+$scope module bit25 $end
+$var reg 1 G" a $end
+$var reg 1 H" b $end
+$var reg 1 I" cin $end
+$var reg 1 J" cout $end
+$var reg 1 K" s $end
+$upscope $end
+$scope module bit26 $end
+$var reg 1 L" a $end
+$var reg 1 M" b $end
+$var reg 1 N" cin $end
+$var reg 1 O" cout $end
+$var reg 1 P" s $end
+$upscope $end
+$scope module bit27 $end
+$var reg 1 Q" a $end
+$var reg 1 R" b $end
+$var reg 1 S" cin $end
+$var reg 1 T" cout $end
+$var reg 1 U" s $end
+$upscope $end
+$scope module bit28 $end
+$var reg 1 V" a $end
+$var reg 1 W" b $end
+$var reg 1 X" cin $end
+$var reg 1 Y" cout $end
+$var reg 1 Z" s $end
+$upscope $end
+$scope module bit29 $end
+$var reg 1 [" a $end
+$var reg 1 \" b $end
+$var reg 1 ]" cin $end
+$var reg 1 ^" cout $end
+$var reg 1 _" s $end
+$upscope $end
+$scope module bit30 $end
+$var reg 1 `" a $end
+$var reg 1 a" b $end
+$var reg 1 b" cin $end
+$var reg 1 c" cout $end
+$var reg 1 d" s $end
+$upscope $end
+$scope module bit31 $end
+$var reg 1 e" a $end
+$var reg 1 f" b $end
+$var reg 1 g" cin $end
+$var reg 1 h" cout $end
+$var reg 1 i" s $end
+$upscope $end
+$enddefinitions $end
+#0
+bUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU !
+bUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU "
+U#
+U$
+bUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU %
+bUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU &
+U'
+U(
+U)
+U*
+U+
+U,
+U-
+U.
+U/
+U0
+U1
+U2
+U3
+U4
+U5
+U6
+U7
+U8
+U9
+U:
+U;
+U<
+U=
+U>
+U?
+U@
+UA
+UB
+UC
+UD
+UE
+UF
+UG
+UH
+UI
+UJ
+UK
+UL
+UM
+UN
+UO
+UP
+UQ
+UR
+US
+UT
+UU
+UV
+UW
+UX
+UY
+UZ
+U[
+U\
+U]
+U^
+U_
+U`
+Ua
+Ub
+Uc
+Ud
+Ue
+Uf
+Ug
+Uh
+Ui
+Uj
+Uk
+Ul
+Um
+Un
+Uo
+Up
+Uq
+Ur
+Us
+Ut
+Uu
+Uv
+Uw
+Ux
+Uy
+Uz
+U{
+U|
+U}
+U!"
+U""
+U#"
+U$"
+U%"
+U&"
+U'"
+U("
+U)"
+U*"
+U+"
+U,"
+U-"
+U."
+U/"
+U0"
+U1"
+U2"
+U3"
+U4"
+U5"
+U6"
+U7"
+U8"
+U9"
+U:"
+U;"
+U<"
+U="
+U>"
+U?"
+U@"
+UA"
+UB"
+UC"
+UD"
+UE"
+UF"
+UG"
+UH"
+UI"
+UJ"
+UK"
+UL"
+UM"
+UN"
+UO"
+UP"
+UQ"
+UR"
+US"
+UT"
+UU"
+UV"
+UW"
+UX"
+UY"
+UZ"
+U["
+U\"
+U]"
+U^"
+U_"
+U`"
+Ua"
+Ub"
+Uc"
+Ud"
+Ue"
+Uf"
+Ug"
+Uh"
+Ui"

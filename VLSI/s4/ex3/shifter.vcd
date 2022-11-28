@@ -1,0 +1,37 @@
+$date
+  Wed Oct 26 08:59:29 2022
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$var reg 1 ! shift_lsl $end
+$var reg 1 " shift_lsr $end
+$var reg 1 # shift_asr $end
+$var reg 1 $ shift_ror $end
+$var reg 1 % shift_rrx $end
+$var reg 5 & shift_val[4:0] $end
+$var reg 32 ' din[31:0] $end
+$var reg 1 ( cin $end
+$var reg 32 ) dout[31:0] $end
+$var reg 1 * cout $end
+$var reg 1 + vdd $end
+$var reg 1 , vss $end
+$var reg 32 - intermediaire[31:0] $end
+$enddefinitions $end
+#0
+U!
+U"
+U#
+U$
+U%
+bUUUUU &
+bUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU '
+U(
+bUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU )
+U*
+0+
+0,
+bUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU -
