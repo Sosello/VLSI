@@ -82,7 +82,7 @@ entity work.EXec
 port map(dec2exe_empty,exe_pop,
          dec_op1,dec_op2,dec_exe_dest,dec_exe_wb,dec_flag_wb,
          dec_mem_data,dec_mem_dest,dec_pre_index,dec_mem_lw,dec_mem_lb,dec_mem_sw,dec_mem_sb,
-         dec_shift_lsl, dec_shift_lsr, dec_shift_asr,  dec_shift_ror ,dec_shift_rrx	, dec_shift_val,dec_cy,
+         dec_shift_lsl, dec_shift_lsr, dec_shift_asr,dec_shift_ror ,dec_shift_rrx, dec_shift_val,dec_cy,
          dec_comp_op1, dec_comp_op2 ,dec_alu_cy ,
          dec_alu_cmd,
          exe_res,exe_c,exe_v,exe_n,exe_z,exe_dest,exe_wb,exe_flag_wb,
@@ -92,33 +92,33 @@ port map(dec2exe_empty,exe_pop,
 
 
 
-dec2exe_empty <='0';	
+--dec2exe_empty <='0';	
 dec_op1<=x"00000001" after 8 ns, x"00000003" after 16 ns, x"0000000f" after 25 ns;
 dec_op2<=x"00000002" after 8 ns, x"00000004" after 16 ns, x"00000003" after 25 ns;
 --dec_exe_dest<="1000" after 8 ns, "1100" after 16 ns,"1110"after 25 ns;
 --dec_mem_data<=x"0000000a" after 8 ns, x"0000000f" after 16 ns, x"00000010" after 25 ns;
 --dec_mem_dest<="0001" after 8 ns, "0010" after 16 ns,"0100"after 25 ns;
---dec_pre_index<='0', '1' after 10 ns;
-dec_mem_lw<='0', '1' after 5 ns, '0'after 10 ns;			
+dec_pre_index<='0', '1' after 10 ns;
+--dec_mem_lw<='0', '1' after 8 ns, '0'after 25 ns;			
 --dec_mem_lb<='0', '1' after 10 ns,'0'after 15 ns;		
 --dec_mem_sw<='0', '1' after 15 ns,'0'after 20 ns;		
 --dec_mem_sb<='0', '1' after 20 ns,'0'after 25 ns;
---dec_shift_lsl<='0', '1' after 5 ns, '0'after 10 ns;	
+dec_shift_lsl<='0', '1' after 5 ns;	
 --dec_shift_lsr<='0', '1' after 10 ns, '0'after 15 ns;	
 --dec_shift_asr<='0', '1' after 15 ns,'0'after 20 ns;	
 --dec_shift_ror<='0', '1' after 20 ns,'0'after 25 ns;	
 --dec_shift_rrx<='0', '1' after 25 ns,'0'after 30 ns;	
---dec_shift_val<="10101";	
---dec_cy <='0', '1' after 10 ns;	
+dec_shift_val<="00001";	
+dec_cy <='0';	
 dec_comp_op1<='1';	
 dec_comp_op2<='0';	
 dec_alu_cy <='0', '1' after 10 ns;
---dec_alu_cmd<="00", "01" after 5 ns, "10" after 10 ns, "11" after 15 ns;
-mem_pop<='1' after 20 ns;			
-ck<='0', not ck after 1 ns;		
-reset_n<='1', '0' after 500 ns;	
-vdd	<= '1';
-vss	<= '0';			
+dec_alu_cmd<="00";
+--mem_pop<='1' after 20 ns;			
+--ck<=not ck after 1 ns;		
+--reset_n<='1', '0' after 500 ns;	
+--vdd	<= '1';
+--vss	<= '0';			
 			
 
 end testbench;

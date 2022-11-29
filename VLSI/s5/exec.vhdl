@@ -85,7 +85,7 @@ signal multiplexeur2:std_logic_vector(31 downto 0);
 signal inverse_dec_op1:std_logic_vector(31 downto 0);
 signal res_alu:std_logic_vector(31 downto 0);
 signal mem_adr:std_logic_vector(31 downto 0);
-signal exe_push:std_logic:='0';
+signal exe_push:std_logic;
 signal exe2mem_full:std_logic;
 
 component Alu
@@ -190,8 +190,8 @@ begin
 	mem_adr <= dec_op1 when dec_pre_index ='0'
 		  else res_alu when dec_pre_index ='1';
 
-	exe_push <= not (exe2mem_full) and not (dec2exe_empty);
-	exe_pop  <= not (exe2mem_full) and not (dec2exe_empty) and (dec_mem_lw or dec_mem_lb or dec_mem_sb or dec_mem_sw);
+	exe_push <= not (dec2exe_empty);
+	exe_pop  <= (not (exe2mem_full)) and (dec_mem_lw or dec_mem_lb or dec_mem_sb or dec_mem_sw);
 
 	exec2mem : fifo
 	port map (	
